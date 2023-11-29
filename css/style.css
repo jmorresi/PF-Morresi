@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "timess";
+  src: url(../Fonts/times_sans_serif/TIMESS__.ttf);
+}
+@media (max-width: 430px) {
+  .img-small {
+    max-width: 300px;
+  }
+  header {
+    display: grid;
+    place-items: center;
+  }
+  .logo {
+    width: 150px;
+  }
+  nav {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  ul {
+    padding: 0;
+  }
+  li, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 10;
+  }
+}
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  display: grid;
+  place-items: center;
+  background-color: beige;
+}
+
+.logo {
+  width: 250px;
+}
+
+nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(177, 160, 160);
+}
+
+nav a:hover {
+  color: red;
+}
+
+ul {
+  padding: 0;
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.container {
+  margin-left: 40%;
+}
+
+body {
+  font-family: sans-serif Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "timess";
+  font-size: 38px;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+}
+
+article {
+  text-align: center;
+  width: 100%;
+}
+
+.img-small {
+  text-align: center;
+  width: 600px;
+  min-width: 230px;
+  border-radius: 15px;
+}
+
+p {
+  font-size: large;
+  font-family: "timess";
+  font-style: oblique;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.contacto {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
