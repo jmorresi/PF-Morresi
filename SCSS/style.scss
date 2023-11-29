@@ -3,8 +3,48 @@
     font-family: "timess";
     src: url(../Fonts/times_sans_serif/TIMESS__.ttf);
 }
-
+* {
+    margin: 0;
+    padding: 0;
+}
             @media (max-width:430px) {
+                .img-small {
+                    max-width: 200px;
+                }
+                header{
+                    display: grid;
+                    place-items: center;
+                    }
+                    
+                .logo {
+                    width: 150px;
+                    }
+
+                nav {
+                    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+                    display: flex;
+                    justify-content: center;
+                    background-color:white 
+                }
+                    
+                ul {
+                padding: 0;
+                }
+                    
+                li, a {
+                list-style: none;
+                text-decoration: none;
+                color:black;
+                font-size:  smaller;        
+                        } 
+                
+                h1 {
+                font-size: 10;
+                }
+                    
+            }
+
+            @media (max-width:1023px) {
                 .img-small {
                     max-width: 300px;
                 }
@@ -14,7 +54,7 @@
                     }
                     
                 .logo {
-                    width: 150px;
+                    width: 400px;
                     }
 
                 nav {
