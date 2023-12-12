@@ -1,6 +1,7 @@
-@media (max-width:1023px) {
+
+@media (max-width:1223px) {
     .img-small {
-        max-width: 500px;
+        width: 500px;
     }
     header{
         display: grid;
@@ -56,11 +57,10 @@
 }
 
 
-@media (max-width:420px) {
+@media (max-width:1103px) {
     .img-small {
-        max-width: 300px;
-        margin: 10px, 10px;
-
+        width: 300px;
+        
     }
     header{
         display: grid;
